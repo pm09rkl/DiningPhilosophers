@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(diningphilosophers)
+project(diningphilosophers VERSION 1.0.0)
 
-add_executable(diningphilosophers main.cpp)
-
-install(TARGETS diningphilosophers RUNTIME DESTINATION bin)
+add_subdirectory(source)
